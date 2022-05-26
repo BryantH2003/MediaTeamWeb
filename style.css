@@ -171,8 +171,15 @@ a{
   margin-bottom: 20px;
 }
 
+/* when hovering over the months */
+.calendar .months li a:hover{
+  color: #F5A1A3;
+}
+
 .calendar .months li .selected{
   font-weight: bold;
+  border-radius: 10px;
+  background-color: #F5A1A3;
   color: #747978;
 }
 
